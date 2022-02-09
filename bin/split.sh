@@ -20,4 +20,4 @@ git pull origin $CURRENT_BRANCH
 
 remote services git@github.com:carroaung/carro-services.git
 
-split 'app/Services' services
+split 'services' services
