@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "220dc6fb61fc5a0a8d2f057833465bea",
+    "content-hash": "57fd705f9f84e46b7158159a121d842f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -124,11 +124,11 @@
         },
         {
             "name": "carro/core",
-            "version": "dev-main",
+            "version": "0.0.0",
             "dist": {
                 "type": "path",
                 "url": "/home/vagrant/develop/laravel-code-restructure/carro-core",
-                "reference": "3d1dd927fd1ed592b2e389a047e0295555166baa"
+                "reference": "4d5ebaf34d9e7d42334e8fb42e9ff5366cfe5daa"
             },
             "require": {
                 "laravel/framework": "^8.75",

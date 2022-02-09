@@ -12,7 +12,7 @@
         "laravel/tinker": "^2.5",
         "wikimedia/composer-merge-plugin": "^2.0",
         "laravel/framework": "^8.75",
-        "carro/core": "*"
+        "carro/core": "0.0.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -65,5 +65,11 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/carroaung/carro-core.git"
+        }
+    ]
 }
