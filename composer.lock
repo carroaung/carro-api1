@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "57fd705f9f84e46b7158159a121d842f",
+    "content-hash": "938c5746c9214943260cf05830c52092",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -125,10 +125,16 @@
         {
             "name": "carro/core",
             "version": "0.0.0",
-            "dist": {
-                "type": "path",
-                "url": "/home/vagrant/develop/laravel-code-restructure/carro-core",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carroaung/carro-core.git",
                 "reference": "4d5ebaf34d9e7d42334e8fb42e9ff5366cfe5daa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carroaung/carro-core/zipball/4d5ebaf34d9e7d42334e8fb42e9ff5366cfe5daa",
+                "reference": "4d5ebaf34d9e7d42334e8fb42e9ff5366cfe5daa",
+                "shasum": ""
             },
             "require": {
                 "laravel/framework": "^8.75",
@@ -169,9 +175,11 @@
                 "framework",
                 "laravel"
             ],
-            "transport-options": {
-                "relative": false
-            }
+            "support": {
+                "source": "https://github.com/carroaung/carro-core/tree/0.0.0",
+                "issues": "https://github.com/carroaung/carro-core/issues"
+            },
+            "time": "2022-02-09T01:23:04+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
@@ -5680,12 +5688,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Facade\\Ignition\\": "src"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Facade\\Ignition\\": "src"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -7491,16 +7499,16 @@
         },
         {
             "name": "sebastian/global-state",
-            "version": "5.0.3",
+            "version": "5.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49"
+                "reference": "19c519631c5a511b7ed0ad64a6713fdb3fd25fe4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/23bd5951f7ff26f12d4e3242864df3e08dec4e49",
-                "reference": "23bd5951f7ff26f12d4e3242864df3e08dec4e49",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/19c519631c5a511b7ed0ad64a6713fdb3fd25fe4",
+                "reference": "19c519631c5a511b7ed0ad64a6713fdb3fd25fe4",
                 "shasum": ""
             },
             "require": {
@@ -7543,7 +7551,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/global-state/issues",
-                "source": "https://github.com/sebastianbergmann/global-state/tree/5.0.3"
+                "source": "https://github.com/sebastianbergmann/global-state/tree/5.0.4"
             },
             "funding": [
                 {
@@ -7551,7 +7559,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-06-11T13:31:12+00:00"
+            "time": "2022-02-10T07:01:19+00:00"
         },
         {
             "name": "sebastian/lines-of-code",
